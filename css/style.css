@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+@import url('https://fonts.googleapis.com/css?family=Harmattan');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#hero{
+  position: absolute;
+}
+#header-image{
+  max-width: 100%;
+  z-index: -1;
+}
+#header-image-2{
+  display: none;
+}
+#header-image-3{
+  display: none;
+}
+@media (max-width: 943px){
+  #header-image{
+    display: none;
+  }
+  #header-image-2{
+    display: block;
+    max-width: 100%;
+    z-index: -1;
+  }
+  #header-image-3{
+    display: none;
+  }
+}
+@media (max-width: 837px){
+  #header-image{
+    display: none;
+  }
+  #header-image-2{
+    display: none;
+  }
+  #header-image-3{
+    display: block;
+    max-width: 100%;
+    z-index: -1;
+    
+  }
+}
+header{
+
+}
+
+#logo{
+  max-width: 100%;
+  margin: 18px;
+}
+
+#hero-text{
+
+  max-width: 100%;
+  width: 500px;
+}
+
+h1, h5{
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+  font-weight: bold;
+  font-size: 2.4em;
+}
+
+h5{
+font-size: 1.3em;
+
+}
+
+#product-image{
+  position: relative;
+  margin-top: 18px;
+  /*width: 30%;*/
+  width: 240px;
+  max-width: 100%;
+}
+
+p{
+  color: #979599;
+  font-size: .67em;
+  font-weight: 400;
+}
+
+.width-box{
+  margin-top: 18px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+/*@media (max-width: 943px) {
+  #product-image{
+    width: 240px;
+    margin-top: -10px;
+  }
+}
+@media (max-width: 553px) {
+  #product-image{
+    width: 200px;
+    margin-top: 10px;
+  }
+}*/
+
+/*@media (max-width: 1000px) {
+  #image-wrapper{
+
+  }
+  #header-image{
+    max-width: none;
+
+
+    zoom: 90%;
+    margin-left: -420px;
+  }
+}*/
+
+main{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #4B474A;
+  text-align: center;
+  font-size: 1.8em;
+
+}
