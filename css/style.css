@@ -320,7 +320,7 @@ a::after{
 main{
   text-align: center;
   font-size: 1.8em;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 #main-container{
@@ -340,7 +340,6 @@ main{
   }
 }
 
-
 hr{
   border: 1px solid #DADADA;
 }
@@ -356,8 +355,8 @@ hr{
 .promo-item{
   display: inline-block;
   width: 200px;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin-right: 28px;
+  margin-left: 28px;
   text-align: left;
   padding-top: 22px;
 
@@ -374,7 +373,7 @@ hr{
 
 .next-step-item{
   display: inline-block;
-  width: 150px;
+  width: 120px;
   margin-right: 24px;
   margin-left: 24px;
   text-align: center;
@@ -382,13 +381,16 @@ hr{
 
 }
 .next-step-item img{
-  width: 68px;
+  width: 54px;
+  margin-bottom: 6px;
 }
 .next-step-item p{
   font-size: .5em;
+  margin-bottom: 6px;
 }
 .next-step-item h5{
   font-size: .64em;
   color: #4B474A;
   font-weight: 600;
+  margin-bottom: 12px;
 }
