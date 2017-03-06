@@ -1,19 +1,60 @@
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 
-@import url('https://fonts.googleapis.com/css?family=Harmattan');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+/*    GLOBAL DEFAULTS    */
 
 body{
   font-family: 'Open Sans', sans-serif;
-
 }
-/* mountains level 1 */
+
+h1, h5{
+  color: white;
+  font-size: 1.3em;
+}
+h1{
+  font-weight: bold;
+  font-size: 2.4em;
+}
+
+p{
+  color: #979599;
+  font-size: .67em;
+  font-weight: 400;
+}
+
+a{
+  font-size: .5em;
+  text-decoration: none;
+  transition: .3s;
+}
+a::after{
+  padding-top: 18px;
+  padding-left: 1px;
+  position: absolute;
+  content: url('../images/arrow.png')
+}
+
+/*    HEADER / HERO DEFAULTS    */
 #hero{
   position: absolute;
 }
+#product-image{
+  margin-top: 24px;
+  width: 320px;
+  margin-bottom: 22px;
+}
 
+#logo{
+  max-width: 100%;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+#hero-text{
+  max-width: 100%;
+  width: 500px;
+}
+
+/*    HERO IMAGE LEVEL 0   */
 @media (min-width: 1248px){
   #header-image-1{
     position: relative;
@@ -45,13 +86,9 @@ body{
     margin-top: 24px;
     width: 350px;
   }
-
-  .hr-wrapper{
-    padding-right: 15.2%;
-    padding-left: 15.2%;
-  }
 }
 
+/*    HERO IMAGE LEVEL 1   */
 @media (max-width: 1248px){
   #header-image-1{
     position: relative;
@@ -81,14 +118,11 @@ body{
   #product-image{
     margin-top: 24px;
     width: 320px;
-  }
-
-  .hr-wrapper{
-    padding-right: 15.2%;
-    padding-left: 15.2%;
+    margin-bottom: 22px;
   }
 }
-/* mountains level 2 */
+
+/*    HERO IMAGE LEVEL 2   */
 @media (max-width: 1070px){
   #header-image-1{
     display: none;
@@ -119,7 +153,8 @@ body{
     width: 310px;
   }
 }
-/* mountains level 3 */
+
+/*    HERO IMAGE LEVEL 3   */
 @media (max-width: 910px){
   #header-image-1{
     display: none;
@@ -150,7 +185,8 @@ body{
     width: 295px;
   }
 }
-/* mountains level 4 */
+
+/*    HERO IMAGE LEVEL 4   */
 @media (max-width: 685px){
   #header-image-1{
     display: none;
@@ -180,13 +216,9 @@ body{
     margin-top: 18px;
     width: 280px;
   }
-
-  .hr-wrapper{
-    padding-right: 13%;
-    padding-left: 13%;
-  }
 }
-/* mountains level 5 */
+
+/*    HERO IMAGE LEVEL 5  */
 @media (max-width: 544px){
   #header-image-1{
     display: none;
@@ -217,13 +249,9 @@ body{
     margin-top: 18px;
     width: 230px;
   }
-
-  .hr-wrapper{
-    padding-right: 15.2%;
-    padding-left: 15.2%;
-  }
 }
-/* mountains level 6 */
+
+/*    HERO IMAGE LEVEL 6   */
 @media (max-width: 410px){
   #header-image-1{
     display: none;
@@ -255,7 +283,8 @@ body{
     width: 220px;
   }
 }
-/* mountains level 6 */
+
+/*    HERO IMAGE LEVEL 7   */
 @media (max-width: 356px){
   #header-image-1{
     display: none;
@@ -287,76 +316,27 @@ body{
   }
 }
 
-header{
-
-}
-
-#logo{
-  max-width: 100%;
-  margin-top: 24px;
-  margin-bottom: 20px;
-}
-
-#hero-text{
-
-  max-width: 100%;
-  width: 500px;
-}
-
-h1, h5{
-
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-h1{
-  font-weight: bold;
-  font-size: 2.4em;
-}
-
-h5{
-font-size: 1.3em;
-
-}
-
-/*#product-image{
-
-  margin-top: 18px;
-
-  width: 320px;
-
-
-}*/
-
-p{
-  color: #979599;
-  font-size: .67em;
-  font-weight: 400;
-}
-
-.width-box{
-  margin-top: 18px;
-  padding-left: 18%;
-  padding-right: 18%;
-
-}
-
-
+/*    CONTENT  */
 main{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  color: #4B474A;
   text-align: center;
   font-size: 1.8em;
   margin-bottom: 20px;
-
-
 }
 
+#main-container{
+  width: 670px;
+  max-width: 100%
+}
+
+.main-text-wrapper{
+  margin-top: 18px;
+  padding-left: 18%;
+  padding-right: 18%;
+}
 
 hr{
   border: 1px solid #DADADA;
 }
-
 .hr-wrapper-2{
   width: 460px;
 }
@@ -364,25 +344,6 @@ hr{
   .hr-wrapper-2{
     width: 280px;
   }
-}
-
-
-a{
-  font-size: .5em;
-  text-decoration: none;
-  transition: .3s;
-}
-a::after{
-  /*content: "\27F6";
-  color: inherit;
-  padding-left: 4px;*/
-  padding-top: 18px;
-  padding-left: 1px;
-  position: absolute;
-  content: url('../images/arrow.png')
-}
-.arrow{
-
 }
 
 .promo-item{
@@ -394,12 +355,17 @@ a::after{
   padding-top: 22px;
 
 }
-
 .promo-item p{
   font-size: .61em;
 }
+.promo-item p.heading{
+  font-size: .8em;
+  margin-bottom: 4px;
+  color: #4B474A;
+  font-weight: bold;
+}
 
-.mini-item{
+.next-step-item{
   display: inline-block;
   width: 150px;
   margin-right: 24px;
@@ -408,12 +374,13 @@ a::after{
   padding-top: 22px;
 
 }
-
-
-.mini-item p{
+.next-step-item img{
+  width: 68px;
+}
+.next-step-item p{
   font-size: .5em;
 }
-.mini-item h5{
+.next-step-item h5{
   font-size: .64em;
   color: #4B474A;
   font-weight: 600;
