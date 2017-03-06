@@ -271,7 +271,11 @@ main{
 a{
   font-size: .5em;
   text-decoration: none;
-
+}
+a::after{
+  content: "\27F6";
+  color: inherit;
+  padding-left: 4px;
 }
 
 .promo-item-left{
@@ -293,6 +297,8 @@ a{
   padding-top: 22px;
 
 }
+
+
 .mini-item p{
   font-size: .5em;
 }
