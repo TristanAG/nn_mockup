@@ -332,6 +332,12 @@ main{
 
 }
 
+hr{
+  border: 1px solid #DADADA;
+  padding-right: 28%;
+  padding-left: 28%;
+}
+
 a{
   font-size: .5em;
   text-decoration: none;
@@ -350,7 +356,7 @@ a::after{
 
 }
 
-.promo-item-left{
+.promo-item{
   display: inline-block;
   width: 200px;
   margin-right: 24px;
@@ -358,6 +364,10 @@ a::after{
   text-align: left;
   padding-top: 22px;
 
+}
+
+.promo-item p{
+  font-size: .61em;
 }
 
 .mini-item{
