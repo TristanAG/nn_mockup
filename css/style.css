@@ -331,11 +331,17 @@ main{
 
 
 }
+.hr-wrapper{
 
+
+  padding-right: 15.2%;
+  padding-left: 15.2%;
+  
+
+}
 hr{
-  border: 1px solid #DADADA;
-  padding-right: 28%;
-  padding-left: 28%;
+border: 1px solid #DADADA;
+
 }
 
 a{
