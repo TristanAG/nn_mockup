@@ -273,10 +273,10 @@ a{
   text-decoration: none;
 }
 a::after{
-  content: "\27F6";
+  /*content: "\27F6";
   color: inherit;
-  padding-left: 4px;
-  /*content: url('../images/arrow.png')*/
+  padding-left: 4px;*/
+  content: url('../images/arrow.png')
 }
 
 .promo-item-left{
