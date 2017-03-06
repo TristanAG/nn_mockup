@@ -333,6 +333,13 @@ main{
   padding-left: 18%;
   padding-right: 18%;
 }
+@media (max-width: 602px){
+  .main-text-wrapper{
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+
 
 hr{
   border: 1px solid #DADADA;
