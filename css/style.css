@@ -187,7 +187,6 @@ header{
 
 #logo{
   max-width: 100%;
-  margin: 18px;
 }
 
 #hero-text{
@@ -197,6 +196,7 @@ header{
 }
 
 h1, h5{
+
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -229,6 +229,7 @@ p{
   margin-top: 18px;
   padding-left: 8%;
   padding-right: 8%;
+
 }
 /*@media (max-width: 943px) {
   #product-image{
@@ -264,6 +265,7 @@ main{
   font-size: 1.8em;
   margin-bottom: 20px;
 
+
 }
 
 a{
@@ -279,6 +281,7 @@ a{
   margin-left: 24px;
   text-align: left;
   padding-top: 22px;
+
 }
 
 .mini-item{
@@ -288,6 +291,7 @@ a{
   margin-left: 24px;
   text-align: center;
   padding-top: 22px;
+
 }
 .mini-item p{
   font-size: .5em;
