@@ -153,7 +153,7 @@ body{
   }
 }
 /* mountains level 6 */
-@media (max-width: 415px){
+@media (max-width: 380px){
   #header-image-1{
     display: none;
   }
