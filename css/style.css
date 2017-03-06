@@ -13,8 +13,44 @@ body{
 #hero{
   position: absolute;
 }
-@media (min-width: 1070px){
+
+@media (min-width: 1248px){
   #header-image-1{
+    position: relative;
+    width: 1800px;
+    max-width: 100%;
+    height: 710px;
+    z-index: -1;
+  }
+  #header-image-2{
+    display: none;
+  }
+  #header-image-3{
+    display: none;
+  }
+  #header-image-4{
+    display: none;
+  }
+  #header-image-5{
+    display: none;
+  }
+  #header-image-6{
+    display: none;
+  }
+  #header-image-7{
+    display: none;
+  }
+
+  #product-image{
+    margin-top: 24px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 1248px){
+  #header-image-1{
+    position: relative;
+    width: 1248px;
     max-width: 100%;
     z-index: -1;
   }
@@ -33,12 +69,14 @@ body{
   #header-image-6{
     display: none;
   }
-
-  #product-image{
-    margin-top: 18px;
-    width: 320px;
+  #header-image-7{
+    display: none;
   }
 
+  #product-image{
+    margin-top: 24px;
+    width: 320px;
+  }
 }
 /* mountains level 2 */
 @media (max-width: 1070px){
@@ -62,6 +100,9 @@ body{
   #header-image-6{
     display: none;
   }
+  #header-image-7{
+    display: none;
+  }
 
   #product-image{
     margin-top: 18px;
@@ -69,7 +110,7 @@ body{
   }
 }
 /* mountains level 3 */
-@media (max-width: 936px){
+@media (max-width: 910px){
   #header-image-1{
     display: none;
   }
@@ -88,6 +129,9 @@ body{
     display: none;
   }
   #header-image-6{
+    display: none;
+  }
+  #header-image-7{
     display: none;
   }
 
@@ -97,7 +141,7 @@ body{
   }
 }
 /* mountains level 4 */
-@media (max-width: 755px){
+@media (max-width: 685px){
   #header-image-1{
     display: none;
   }
@@ -116,6 +160,9 @@ body{
     display: none;
   }
   #header-image-6{
+    display: none;
+  }
+  #header-image-7{
     display: none;
   }
 
@@ -125,7 +172,7 @@ body{
   }
 }
 /* mountains level 5 */
-@media (max-width: 590px){
+@media (max-width: 544px){
   #header-image-1{
     display: none;
   }
@@ -139,6 +186,7 @@ body{
     display: none;
   }
   #header-image-5{
+    display: none;
     display: block;
     max-width: 100%;
     z-index: -1;
@@ -146,14 +194,17 @@ body{
   #header-image-6{
     display: none;
   }
+  #header-image-7{
+    display: none;
+  }
 
   #product-image{
     margin-top: 18px;
-    width: 240px;
+    width: 230px;
   }
 }
 /* mountains level 6 */
-@media (max-width: 380px){
+@media (max-width: 410px){
   #header-image-1{
     display: none;
   }
@@ -171,13 +222,48 @@ body{
   }
   #header-image-6{
     display: block;
+
+    max-width: 100%;
+    z-index: -1;
+  }
+  #header-image-7{
+    display: none;
+  }
+
+  #product-image{
+    margin-top: 18px;
+    width: 220px;
+  }
+}
+/* mountains level 6 */
+@media (max-width: 356px){
+  #header-image-1{
+    display: none;
+  }
+  #header-image-2{
+    display: none;
+  }
+  #header-image-3{
+    display: none;
+  }
+  #header-image-4{
+    display: none;
+  }
+  #header-image-5{
+    display: none;
+  }
+  #header-image-6{
+    display: none;
+  }
+  #header-image-7{
+    display: block;
     max-width: 100%;
     z-index: -1;
   }
 
   #product-image{
     margin-top: 18px;
-    width: 240px;
+    width: 220px;
   }
 }
 
@@ -187,6 +273,8 @@ header{
 
 #logo{
   max-width: 100%;
+  margin-top: 24px;
+  margin-bottom: 20px;
 }
 
 #hero-text{
@@ -231,31 +319,7 @@ p{
   padding-right: 8%;
 
 }
-/*@media (max-width: 943px) {
-  #product-image{
-    width: 240px;
-    margin-top: -10px;
-  }
-}
-@media (max-width: 553px) {
-  #product-image{
-    width: 200px;
-    margin-top: 10px;
-  }
-}*/
 
-/*@media (max-width: 1000px) {
-  #image-wrapper{
-
-  }
-  #header-image{
-    max-width: none;
-
-
-    zoom: 90%;
-    margin-left: -420px;
-  }
-}*/
 
 main{
   font-family: 'Open Sans', sans-serif;
@@ -271,12 +335,19 @@ main{
 a{
   font-size: .5em;
   text-decoration: none;
+  transition: .3s;
 }
 a::after{
   /*content: "\27F6";
   color: inherit;
   padding-left: 4px;*/
+  padding-top: 18px;
+  padding-left: 1px;
+  position: absolute;
   content: url('../images/arrow.png')
+}
+.arrow{
+
 }
 
 .promo-item-left{
