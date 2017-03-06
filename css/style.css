@@ -45,6 +45,11 @@ body{
     margin-top: 24px;
     width: 350px;
   }
+
+  .hr-wrapper{
+    padding-right: 15.2%;
+    padding-left: 15.2%;
+  }
 }
 
 @media (max-width: 1248px){
@@ -76,6 +81,11 @@ body{
   #product-image{
     margin-top: 24px;
     width: 320px;
+  }
+
+  .hr-wrapper{
+    padding-right: 15.2%;
+    padding-left: 15.2%;
   }
 }
 /* mountains level 2 */
@@ -170,6 +180,11 @@ body{
     margin-top: 18px;
     width: 280px;
   }
+
+  .hr-wrapper{
+    padding-right: 13%;
+    padding-left: 13%;
+  }
 }
 /* mountains level 5 */
 @media (max-width: 544px){
@@ -201,6 +216,11 @@ body{
   #product-image{
     margin-top: 18px;
     width: 230px;
+  }
+
+  .hr-wrapper{
+    padding-right: 15.2%;
+    padding-left: 15.2%;
   }
 }
 /* mountains level 6 */
@@ -331,18 +351,21 @@ main{
 
 
 }
-.hr-wrapper{
 
 
-  padding-right: 15.2%;
-  padding-left: 15.2%;
-  
-
-}
 hr{
-border: 1px solid #DADADA;
-
+  border: 1px solid #DADADA;
 }
+
+.hr-wrapper-2{
+  width: 460px;
+}
+@media (max-width: 502px){
+  .hr-wrapper-2{
+    width: 280px;
+  }
+}
+
 
 a{
   font-size: .5em;
